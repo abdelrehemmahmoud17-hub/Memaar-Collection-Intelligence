@@ -1,130 +1,86 @@
-# Memaar-Collection-Intelligence
-Real Estate Installment Collection &amp; Financial Risk Intelligence Dashboard built with Power BI, DAX, and data modeling.
 # Memaar Al Morshedy | Collection Intelligence Dashboard
 
 **Power BI | Real Estate Analytics | Financial Risk Intelligence**
 
-## Project Overview
+## 📊 Project Overview
 
-The Collection Intelligence Dashboard is a real estate financial analytics project designed to analyze installment collections, monitor collection performance, and support data-driven decision-making.
+This project presents an interactive Power BI dashboard designed to analyze real estate installment collections across multiple residential compounds.
 
-The project focuses on transforming installment payment records from multiple residential compounds into a structured analytical model and an interactive Power BI dashboard.
+The dashboard provides an overview of collection performance, outstanding installments, project comparisons, and financial reporting to support data-driven decision-making.
 
-## Business Problem
+## 🎯 Business Problem
 
-Managing installment collections across multiple real estate compounds can be challenging when payment records are maintained in separate Excel files.
+Managing installment collections across multiple real estate projects can be challenging when financial records are stored in separate Excel files.
 
-This creates several business challenges:
+Key challenges include:
 
-- Limited visibility into company-wide collection performance.
-- Difficulty comparing collection progress across compounds.
-- Challenges in distinguishing collected amounts from outstanding installments.
-- Limited visibility into cash and bank-financed transactions.
-- Time-consuming manual reporting and reconciliation.
+- Limited visibility into overall collection performance.
+- Difficulty comparing collection rates across compounds.
+- Challenges tracking collected and outstanding installments.
+- Time-consuming manual reporting.
+- Difficulty analyzing collection data across projects and payment categories.
 
-## Project Objectives
+## 🎯 Project Objectives
 
-- Consolidate installment collection data across multiple compounds.
-- Monitor collection performance at company and project levels.
-- Analyze issued installments and collected payments.
-- Compare collection performance across residential compounds.
-- Separate cash transactions from bank-financed transactions.
-- Support financial monitoring and management decision-making.
+- Consolidate collection data across residential compounds.
+- Monitor collection performance using Power BI.
+- Compare financial indicators across projects.
+- Analyze collected and outstanding amounts.
+- Support management decisions with interactive reports.
 
-## Tools & Technologies
+## 🛠️ Tools & Technologies
 
-- **Power BI Desktop:** Interactive dashboards and reporting.
-- **Power Query (M):** Data cleaning, transformation, and preparation.
-- **DAX:** Measures and analytical calculations.
-- **Data Modeling:** Fact and dimension tables using a dimensional modeling approach.
-- **Excel:** Source data preparation and validation.
+- Power BI Desktop
+- DAX
+- Power Query
+- Data Modeling
+- Microsoft Excel
 
-## Data Model
+## 📈 Key Performance Indicators
 
-The project uses a structured analytical model built around installment payments, contracts, units, customers, projects, banks, and dates.
+- Total Units Sold
+- Total Contract Value
+- Collected Amount
+- Outstanding Installments
+- Collection Rate
+- Collection Performance by Project
+- Cash vs. Bank Financing Analysis
 
-Key model components include:
+*KPI values and definitions should be validated against the underlying data and report measures before publication.*
 
-- `Fact_Installment_Pay` — installment and payment records.
-- `Fact_Contract` — sales contract information.
-- `Dim_Project` — residential compound information.
-- `Dim_Unit` — unit details and engineering completion information.
-- `Dim_Customer` — customer reference data.
-- `Dim_Bank` — bank and financing classification.
-- `Dim_Date` — date-based analysis.
+## 💡 Business Insights
 
-The model is designed to support project-level comparisons, financial analysis, and time-based reporting.
+The dashboard is designed to help management:
 
-## Key Performance Indicators (KPIs)
+- Identify projects requiring closer collection monitoring.
+- Compare collection performance across compounds.
+- Review outstanding installments.
+- Investigate differences between issued installments and collected payments.
+- Improve financial reporting and collection follow-up.
 
-The dashboard is designed to monitor the following business metrics, subject to data validation and measure definitions:
+Specific findings and recommendations will be added after validating the final dashboard results.
 
-- **Units Sold:** Number of sold real estate units.
-- **Total Contract Value:** Total value of sales contracts.
-- **Collection Rate:** Collected amount compared with the corresponding collectible or issued amount, according to the agreed business definition.
-- **Collected Amount:** Total payments collected within the selected scope and period.
-- **Outstanding Installments:** Amounts due but not yet collected, based on the applicable due-date rules.
-- **Project Collection Performance:** Collection performance by residential compound.
-- **Cash vs. Bank Financing:** Analysis of payment or financing categories.
+## 🏢 Project Scope
 
-> KPI values should be populated only after validating the underlying data, DAX measures, and reconciliation totals.
+The project covers the following residential compounds:
 
-## Dashboard Design
+- One Kattameya
+- Zahra North Coast
+- Degla Landmark
+- Skyline Katameya
+- Degla Palms
+- Lake Front 6
+- Crystal Plaza Maadi
+- Rihana
 
-The dashboard follows a black-and-gray visual identity designed to provide a professional financial reporting experience.
+## 🖼️ Dashboard Screenshots
 
-Planned analytical views include:
+Screenshots of the Power BI dashboard will be added in this section.
 
-- Company-wide performance overview.
-- Collection performance by compound.
-- Installment issuance and collection analysis.
-- Cash versus bank-financed transactions.
-- Project-level financial monitoring.
+## 🔒 Data Privacy
 
-## Business Insights & Recommendations
-
-The dashboard is intended to help management:
-
-1. Identify compounds with comparatively lower collection rates.
-2. Prioritize follow-up on overdue installments.
-3. Compare issued installments against collected payments.
-4. Monitor differences between cash and bank-financed transactions.
-5. Investigate discrepancies between source records and reported totals.
-6. Use validated collection trends to improve collection planning.
-
-Specific findings and recommendations should be added after validating the final dashboard results.
-
-## Data Quality & Validation
-
-The project emphasizes data reliability through:
-
-- Checking missing and inconsistent values.
-- Validating data types and payment classifications.
-- Reconciling transformed data against source records.
-- Reviewing installment issuance and collection totals.
-- Verifying KPI calculations before publishing results.
-
-## Project Scope
-
-The source data covers multiple residential compounds, including One Kattameya, Zahra North Coast, Degla Landmark, Skyline Katameya, Degla Palms, Lake Front 6, Crystal Plaza Maadi, and Rihana.
-
-The final reporting scope and completeness depend on successful data loading and validation of each source.
-
-## Screenshots
-
-Dashboard screenshots will be added here after preparing and validating the final report pages.
-
-Suggested images:
-
-- `images/home-dashboard.png`
-- `images/collection-analysis.png`
-- `images/project-performance.png`
-
-## Disclaimer
-
-This project is presented for portfolio and educational purposes. Any publicly shared screenshots or files must exclude confidential company information, customer personal data, and unauthorized financial records.
+This portfolio project should contain only data and screenshots authorized for public sharing. Confidential company information and customer personal data must not be published without permission.
 
 ---
 
-**Author:** Data Analyst Portfolio Project  
-**Focus:** Power BI | Data Analytics | Financial Reporting | Business Intelligence
+**Project Focus:** Data Analytics | Power BI | Business Intelligence | Financial Reporting
